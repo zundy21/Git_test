@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to bottom, white 50%, lightgray 50%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#main-title {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+#info-title {
+    color: darkgreen;
+    margin-top: 20px;
+}
+
+
+.info {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+.media {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+
+#contact-title, #gallery-title {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
